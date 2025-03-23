@@ -1,0 +1,289 @@
+body{
+  margin-left: 0;
+  margin-top:0;
+  margin-right:0;
+  margin-bottom: 0px;
+  padding-bottom:700px;
+ 
+
+}
+.main{
+  width:1500px;
+}
+.header{
+  display:flex;
+  background-color: black;
+  height:80px;
+  flex-direction: row;
+  align-items: center;
+  border-bottom: 1px solid rgb(146, 146, 146);
+  margin:0;
+  padding:0;
+
+  
+}
+
+.image1{
+  height: 50px;
+  justify-content: center;
+  vertical-align:center ;
+  
+}
+.right{
+  color: white;
+ flex-direction: row;
+  display: flex;
+  align-items: center;
+  
+
+}
+.left{
+  width:70%;
+}
+p{
+  margin-left: 60px;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.middle-porsion{
+  background-color: black;
+  height:1000px;
+  padding-top:20px;
+  
+display: grid;
+grid-template-columns: 1fr 1fr;
+
+
+ 
+  
+}
+.highlight{
+  color:white;
+ font-size: 85px;
+ margin-top:0px;
+ padding-top: 85px;
+ padding-left: 85px;
+ font-weight: bold;
+ margin-bottom: 0px;
+ 
+
+}
+.smalltext{
+  color:rgb(201, 198, 198);
+  padding-left: 88px;
+}
+
+.button{
+  width:225px;
+  height:60px;
+  background-color: rgb(255, 52, 0);
+  color:white;
+  border-radius: 100px;
+  border:none;
+  margin-left:145px;
+  margin-top: 30px;
+  font-weight:bold ;
+  font-size: 18px;;
+  text-align: center;
+}
+.banner{
+margin-top:-50px;
+  width:600px;
+  margin-left: -50px;;
+}
+.final{
+  background-color:rgb(241, 241, 241);
+  height:300px;
+  margin-top:0;
+  text-align: center;
+}
+.buy{
+ margin-top: 0px;
+ color:rgb(27, 7, 96);
+ font-weight: bolder;
+ font-size: 35px;
+ padding-top: 25px;
+ 
+ margin-bottom: 0px;;
+ 
+}
+.under{
+  color: rgb(145, 140, 164);
+}
+.button2{
+  margin-left:-160px;
+  margin-top: 50px;
+  border:none;
+  background-color:rgb(255, 52, 0);
+  width: 150px;
+  height:50px;
+  border-radius: 25px;
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+  cursor:pointer;
+
+}
+.search{
+padding-bottom: 5px;;
+  margin-left: 55px;;
+  width: 700px;
+  height: 60px;
+  border:none ;
+  border-radius: 30px;;
+  background-color: rgb(255, 255, 255);
+  font-size: 25px;
+  
+}
+.search::placeholder{
+  font-size:19px ;
+  color:rgb(203, 203, 203);
+  
+}
+.grid2{
+   display:grid;
+   grid-template-columns: 120px 120px 120px 120px 120px 120px ;
+   margin-left:445px;
+   margin-top: 25px;
+   font-size: 20px;
+   color:rgb(27, 7, 96);
+   font-weight: bold;
+}
+.com9{
+  background-color:rgb(0, 217, 255);
+  border-radius: 13px;
+  height:25px;
+  padding-top: 1px;
+  color:white;
+  
+}
+.last{
+  background-color:rgb(241, 241, 241);
+  height:500px;
+  padding-top: 50px;
+  padding-left: 0px;
+
+  
+}
+.entry-1{
+  background-color:rgb(0, 217, 255);
+  color:white;
+  width:400px;
+  height:150px;
+  margin-left:10px;
+  text-align: start;
+  padding-top: 0px;
+  padding-left: 10px;;
+  border-radius: 10px;
+ line-height: 25px;;
+ 
+
+ 
+}
+.entry-2{
+  background-color:rgb(37, 132, 255);
+  color:white;
+  width:400px;
+  height:150px;
+  margin-left:10px;
+  text-align: start;
+  padding-top: 0px;
+  padding-left: 10px;;
+  border-radius: 10px;
+ line-height: 25px;;
+ 
+}
+.E{
+  font-size: 20px;
+
+}
+
+.month{
+ font-size: 20px;
+}
+.beforemonth{
+  font-size: 50px;;
+  line-height: 8px;
+  margin-bottom: 0px;
+  padding-top: 0px;
+  
+  
+  
+}
+.easy{
+  margin-top:20px;
+}
+.sub-heading{
+  background-color: rgb(255, 255, 255);
+  width:410px;
+  height:300px;
+  margin-left:10px;
+  text-align: left;
+  color:rgb(27, 7, 96);
+  
+  
+}
+.hi{
+  margin-top:-10px;
+  padding-top: 20px;;
+}
+ .greentick{
+  color:lightgreen;
+  font-weight: bold;
+ }
+ .buynow{
+  background-color: white;
+  color:rgb(27, 7, 96);
+  margin-top: 30px;
+  margin-left:30px;
+  width: 350px;
+  height: 50px;
+  border-radius:25px ;
+  font-weight: bold;
+  cursor: pointer;
+ }
+ .buynow:hover{
+  background-color:rgb(27, 7, 96); 
+  color:white;
+ }
+ .divlast{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-left: 0px;
+ }
+.end{
+  background-color:rgb(35, 35, 35);
+  height:300px;
+  color:white;
+  
+}
+.grid-3{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  padding-top:30px;
+  column-gap:1px;;
+
+}
+.copyright{
+  margin-left:-12px;
+  margin-top: -10px;
+  color:rgb(119, 119, 119);
+  
+}
+h3{
+  margin-left: 25px;
+}
+.product,.company,.domain,.support{
+  text-align: left;
+}
+.side{
+  margin-left: 10px;
+  color:rgb(119, 119, 119);
+  font-size:15px;
+  font-weight: lighter;
+  line-height: 6px;
+}
+.side:hover{
+  color:white;
+  
+}
